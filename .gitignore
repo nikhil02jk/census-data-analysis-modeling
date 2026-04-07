@@ -1,0 +1,22 @@
+# Create .gitignore to exclude large/unnecessary files
+echo "
+# Data files (too large for GitHub)
+Data/census-bureau.data
+Data/full_data.csv
+Data/df_with_predictions.csv
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+" > .gitignore
